@@ -5,6 +5,8 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
 import MomentsSection from './components/MomentsSection';
+import PricingSection from './components/PricingSection';
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
       <Hero />
       <Features />
       <MomentsSection />
+      <PricingSection />
+      <Footer />
     </main>
   );
 }
